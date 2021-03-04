@@ -12,7 +12,7 @@
 
 <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="#">LATBS</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,21 +21,23 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="latihan1.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Product</a>
+                        <a class="nav-link disabled" href="#">Product</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link disabled" href="#">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
+                        <a class="nav-link" href="latihan1.html">Contact Us</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+
+    <!-- slide gambar -->
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner" style="height: 500px;">
             <div class="carousel-item active">
@@ -58,41 +60,76 @@
             </button>
     </div>
 
-
     <!-- content -->
     <div class="container mt-4">
         <h2 class="text-center">Hubungi Kami</h2><br>
+        <p class="text-center">
+            <b> Halo!</b> Terima kasih telah mengunjungi website kami! Jika ada ingin mengirimkan pesan kepada kami, silahkan tulis pesan anda pada
+            <b> formulir dibawah ini</b> atau kunjungi customer service kami di alamat berikut ....
+        </p>
         <div class="row">
             <div class="col-md-6">
                 <div class="card">
                     <div class="card-body">
-                        <div class="card-title">
-                            Silahan tulis pesan Anda
-                        </div>
                         <div class="mb-3">
                             <label for="email" class="form-label">Email</label>
                             <input type="email" class="form-control" id="email" placeholder="name@example.com">
                         </div>
                         <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <label class="form-label">Jenis Pesan</label>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Pilih salah satu</option>
+                                <option value="1">Komplain</option>
+                                <option value="2">Saran</option>
+                                <option value="3">Testimoni</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="textarea1" class="form-label">Pesan Anda</label>
+                            <textarea class="form-control" id="textarea1" rows="3" placeholder="Tuliskan pesan Anda ..."></textarea>
+                        </div>
+                        <div class="mb-3 text-end">
+                            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#popup-msg">Kirim</button>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 clearfix">
+                <div class="card">
+                    <img src="assets/map.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Alamat Kantor Pusat</h5>
+                        <p class="card-text">
+                            Jalan Bersama Menuju Sukses No 1 <br>Jakarat, Indonesia<br> Telp. 0124-4567-7890 <br> Email: sukses@bersama.co.id
+                        </p>
 
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
     <!-- footer -->
-    <footer>
-        <div class="container-footer">
-            <p>created by @ulimultia</p>
+    <footer class="mt-4">
+        <div class="text-center bg-dark" style="height: 50px;">
+            <p class="text-light">created by @ulimultia</p>
         </div>
     </footer>
 
+
+    <!-- Modal -->
+    <div class="modal fade" id="popup-msg" tabindex="-1" aria-labelledby="popup-msg-label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content bg-success">
+                <div class="modal-body">
+                    <p class="text-light text-center">Pesan <b>berhasil</b> dikirimkan!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 
 </body>
