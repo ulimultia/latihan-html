@@ -1,0 +1,29 @@
+body {
+    /* background-image: url("../assets/bg_kitchen.jpg");
+    background-repeat: repeat;
+    background-size: 500px; */
+    background-color: #e9d7be;
+}
+
+.navbar {
+    background-color: #f9ab40;
+}
+
+.carousel-item {
+    background-color: #f9ab40;
+    height: 500px;
+}
+
+
+/* css for footer */
+
+footer {
+    height: 70px;
+    background-color: #44455b;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
