@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/kitchen.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <title>My Receipt</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/font-awesome.min.css">
+    <link rel="icon" href="assets/images/kepalakoki.png">
+    <title>RESEPKU</title>
 </head>
 
 <body>
@@ -15,33 +17,41 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container">
-                <a class="navbar-brand" href="#"><b> Resepku </b></a>
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/kepalakoki.png" style="width: 30px;">
+                    <b> Resepku </b>
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Resep
+                            </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">All</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><a class="dropdown-item" href="#">Cookies</a></li>
+                                <li><a class="dropdown-item" href="#">Cake</a></li>
+                                <li><a class="dropdown-item" href="#">Pastry</a></li>
+                                <li><a class="dropdown-item" href="#">Bread</a></li>
+                                <li><a class="dropdown-item" href="#">Eastern</a></li>
+                                <li><a class="dropdown-item" href="#">Western</a></li>
+                                <li><a class="dropdown-item" href="#">Nusantara</a></li>
+                                <li><a class="dropdown-item" href="#">Minuman</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            <a class="nav-link " href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#" t>Contact Us</a>
                         </li>
                     </ul>
                     <form class="d-flex">
@@ -52,10 +62,27 @@
             </div>
         </nav>
         <!-- carousel start -->
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div id="slide-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="..." class="d-block w-100" alt="...">
+                <div class="carousel-item active carousel1">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <img src="assets/images/Untitled-1.png" class="d-block w-100">
+                            </div>
+                            <div class="col-12 col-md-6 mt-4 mb-4">
+                                <div class="container text-center">
+                                    <h1 class="text-light text-start"><b>Halo!</b><br> Selamat datang di Resepku!</h1>
+                                    <hr>
+                                    <p class="text-light mt-4">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                                        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    </p>
+                                    <a href="#follow-us" class="btn btn-outline-light mt-3">FOLLOW ME</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="carousel-item">
                     <img src="..." class="d-block w-100" alt="...">
@@ -64,11 +91,11 @@
                     <img src="..." class="d-block w-100" alt="...">
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#slide-carousel" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#slide-carousel" data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
@@ -110,7 +137,7 @@
                 <div class="col-4 col-md-3 text-center">
                     <a href="">
                         <img src="assets/images/063-noodles.png" alt="">
-                        <br> Oriental
+                        <br> Eastern
                     </a>
                 </div>
                 <div class="col-4 col-md-3 text-center">
@@ -180,19 +207,89 @@
                         <h3 style="color: white;"><b>OPEN ORDER NOW!</b> </h3>
                         <h5 class="text-light">Diskon sampai<br><b>50%</b></h5>
                         <!-- <h2 style="color: white;"><b>PROMO</b> up to <br><b>50%</b></h2> -->
-                        <img src="assets/images/shopping-cart.png" alt="" style="width: 200px;">
+                        <i class="fas fa-shopping-cart fa-10x text-light"></i>
                     </a>
                 </div>
             </div>
         </div>
         <div class="row baris2">
-            <div class="col-12 col-md-5 text-center" id="kolom3">
-                asdsa
+            <div class="col-12 col-md-3" id="kolom3">
+                <div class="container text-center mt-4 mb-4" id="follow-us">
+                    <h3 style="color: white;"><b>FOLLOW ME</b> </h3>
+                    <!-- <h2 style="color: white;"><b>PROMO</b> up to <br><b>50%</b></h2> -->
+                    <div class="row">
+                        <div class="col-6 col-md-6 mt-3">
+                            <a href="">
+                                <i class="fab fa-instagram mt-3 mb-3 fa-5x text-light"></i>
+                                <h5 class="text-light">@ulimultia</h5>
+                            </a>
+                        </div>
+                        <div class="col-6 col-md-6 mt-3">
+                            <a href="">
+                                <i class="fab fa-tiktok mt-3 mb-3 fa-5x text-light"></i>
+                                <h5 class="text-light">@tiktok</h5>
+                            </a>
+                        </div>
+                        <div class="col-6 col-md-6 mt-3">
+                            <a href="">
+                                <i class="fab fa-youtube mt-3 mb-3 fa-5x text-light"></i>
+                                <h5 class="text-light">youtube</h5>
+                            </a>
+                        </div>
+                        <div class="col-6 col-md-6 mt-3">
+                            <a href="">
+                                <i class="fas fa-shopping-cart mt-3 mb-3 fa-5x text-light"></i>
+                                <h5 class="text-light">Shopee</h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-12 col-md-7" id="kolom4">
-                asdd
+            <div class="col-12 col-md-9" id="kolom4">
+                <div class="container row mt-4 mb-4">
+                    <div class="col-5 col-md-4  text-center">
+                        <img src="assets/images/070-pie.png" style="width: 100px; height: 100px;">
+                    </div>
+                    <div class="col-7 col-md-8">
+                        <h5>Baca Juga: Lorem Ipsum</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ....
+                        </p>
+                        <div class="text-end mb-4">
+                            <button type="button" class="btn btn-sm btn-outline-light">More</button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="col-7 col-md-8">
+                        <h5>Baca Juga: Lorem Ipsum</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua......
+                        </p>
+                        <div class="text-start">
+                            <button type="button" class="btn btn-sm btn-outline-light">More</button>
+                        </div>
+                    </div>
+                    <div class="col-5 col-md-4  text-center">
+                        <img src="assets/images/007-burger.png" style="width: 100px; height: 100px;">
+                    </div>
+                </div>
             </div>
         </div>
+        <!-- <div class="row baris2">
+            <div class="col-12 col-md-3 " id="kolom3">
+                <div class="container mt-2 mb-2">
+                    <i class="col-4 fab fa-instagram fa-5x" style="color: white;"></i>
+
+                </div>
+            </div>
+            <div class="col-12 col-md-3" id="kolom4">
+                asdd
+            </div>
+            <div class="col-12 col-md-3 " id="kolom5">
+                asdsa
+            </div>
+            <div class="col-12 col-md-3" id="kolom6">
+                asdd
+            </div>
+        </div> -->
     </main>
     <!-- content end -->
 
@@ -204,6 +301,7 @@
 
     <!-- script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/releases/v5.15.2/js/all.js" data-auto-replace-svg="nest"></script>
 
 </body>
 

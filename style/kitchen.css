@@ -1,96 +1,105 @@
-body {
-    /* background-color: rgb(204, 204, 204); */
-    /* background-image: url("../assets/bg_kitchen.jpg");
+    body {
+        /* background-color: rgb(204, 204, 204); */
+        /* background-image: url("../assets/bg_kitchen.jpg");
     background-repeat: repeat;
     background-size: 500px; */
-}
-
-.navbar {
-    background-color: #f9ab40;
-}
-
-.carousel-item {
-    background-color: #f9ab40;
-    height: 500px;
-}
-
-
-/* css main */
-
-.kategori-resep {
-    margin-bottom: 100px;
-}
-
-.kategori-resep h1 {
-    text-align: center;
-    margin-top: 50px;
-    font-weight: bold;
-}
-
-.kategori-resep div {
-    margin-top: 20px;
-}
-
-.kategori-resep a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-}
-
-.kategori-resep a:hover {
-    opacity: 0.5;
-    color: rgb(28, 28, 28);
-}
-
-
-/* .kategori-resep a:hover {
+    }
+    
+    .navbar {
+        background-color: #f9ab40;
+    }
+    
+    .carousel-item {
+        background-color: #f9ab40;
+        /* height: 500px; */
+    }
+    
+    .carousel1 img {
+        max-height: 90%;
+        width: 90%;
+    }
+    /* css main */
+    
+    .kategori-resep {
+        margin-bottom: 100px;
+    }
+    
+    .kategori-resep h1 {
+        text-align: center;
+        margin-top: 50px;
+        font-weight: bold;
+    }
+    
+    .kategori-resep div {
+        margin-top: 20px;
+    }
+    
+    .kategori-resep a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+    
+    .kategori-resep a:hover {
+        opacity: 0.5;
+        color: rgb(28, 28, 28);
+    }
+    /* .kategori-resep a:hover {
     color: white;
 } */
-
-.kategori-resep img {
-    width: 100px;
-}
-
-
-/* css index kategori cokies */
-
-.baris1,
-.baris2 {
-    height: auto;
-    margin-bottom: 30px;
-}
-
-#kolom1 {
-    background-color: #cafa5b;
-}
-
-#kolom2 {
-    background-color: rgb(230, 104, 104);
-    /* border: #a9e5d5;
+    
+    .kategori-resep img {
+        width: 100px;
+    }
+    /* css index kategori cokies */
+    
+    .baris1,
+    .baris2 {
+        height: auto;
+        /* margin-bottom: 30px; */
+    }
+    
+    #kolom1 {
+        background-color: #cafa5b;
+    }
+    
+    #kolom2 {
+        background-color: rgb(230, 104, 104);
+        /* border: #a9e5d5;
     border-style: solid; */
-}
-
-#kolom2 a {
-    text-decoration: none;
-}
-
-#kolom2 a:hover {
-    opacity: 0.7;
-}
-
-#kolom3 {
-    background-color: rgb(93, 223, 252);
-    /* background-color: rgb(87, 79, 79); */
-    /* border: #ffce66;
-    border-style: solid; */
-}
-
-#kolom4 {
-    background-color: #ffce66;
-}
-
-
-/* .produk a {
+    }
+    
+    #kolom2 a,
+    #kolom3 a {
+        text-decoration: none;
+    }
+    
+    #kolom2 a:hover {
+        opacity: 0.7;
+    }
+    
+    #kolom3 {
+        background-color: rgb(93, 223, 252);
+        /* background-color: rgb(87, 79, 79); */
+        /* border: rgb(93, 223, 252);
+        border-style: solid; */
+    }
+    
+    #kolom4 {
+        background-color: #ffce66;
+    }
+    
+    #kolom5 {
+        background-color: rgb(93, 223, 252);
+        /* background-color: rgb(87, 79, 79); */
+        /* border: rgb(93, 223, 252);
+        border-style: solid; */
+    }
+    
+    #kolom6 {
+        background-color: #ffce66;
+    }
+    /* .produk a {
     text-decoration: none;
     color: black;
 }
@@ -111,18 +120,16 @@ body {
     border-style: solid;
     border-color: rgb(230, 230, 230)
 } */
-
-
-/* css for footer */
-
-footer {
-    height: 70px;
-    /* background-color: #44455b; */
-    background-color: rgb(87, 79, 79);
-}
-
-footer p {
-    text-align: center;
-    color: white;
-    padding: 20px;
-}
+    /* css for footer */
+    
+    footer {
+        height: 70px;
+        /* background-color: #44455b; */
+        background-color: rgb(87, 79, 79);
+    }
+    
+    footer p {
+        text-align: center;
+        color: white;
+        padding: 20px;
+    }
