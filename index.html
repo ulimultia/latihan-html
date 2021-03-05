@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/kitchen.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=RocknRoll+One&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/font-awesome.min.css">
     <link rel="icon" href="assets/images/kepalakoki.png">
@@ -17,9 +21,9 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="index.html" style="font-family: 'Sofia', serif;">
                     <img src="assets/images/kepalakoki.png" style="width: 30px;">
-                    <b> Resepku </b>
+                    <b>Resepku</b>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -56,7 +60,7 @@
                     </ul>
                     <form class="d-flex">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
+                        <button class="btn btn-outline-light" type="submit">Search</button>
                     </form>
                 </div>
             </div>
@@ -72,7 +76,9 @@
                             </div>
                             <div class="col-12 col-md-6 mt-4 mb-4">
                                 <div class="container text-center">
-                                    <h1 class="text-light text-start"><b>Halo!</b><br> Selamat datang di Resepku!</h1>
+                                    <h1 class="text-light text-start"><b>Halo!</b> Selamat datang di
+                                        <p style="font-family: 'Sofia', serif;">Resepku!</p>
+                                    </h1>
                                     <hr>
                                     <p class="text-light mt-4">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
@@ -85,10 +91,42 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-md-8 mt-4 mb-4">
+                                <div class="container text-end">
+                                    <h3 class="text-light"><b>BARU!</b> Resep Ayam Bakar Pedas Spesial</h3>
+                                    <hr>
+                                    <p class="text-light mt-4">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ...
+                                    </p>
+                                    <a href="#" class="btn btn-outline-light mt-2 mt-2">BACA</a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 mt-4 mb-4 text-center">
+                                <i class="fas fa-bell fa-10x mt-4 text-light"></i>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-md-4 mt-4 text-center">
+                                <i class="fas fa-crown fa-10x text-light"></i>
+                            </div>
+                            <div class="col-12 col-md-8 mt-4 mb-4">
+                                <div class="container text-start">
+                                    <h3 class="text-light text-start"><b>HOT!</b> Resep Nastar Murah Meriah </h3>
+                                    <hr>
+                                    <p class="text-light mt-4">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ....
+                                    </p>
+                                    <a href="#" class="btn btn-outline-light mt-3">BACA</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#slide-carousel" data-bs-slide="prev">
@@ -175,11 +213,11 @@
         <div class="row baris1">
             <div class="col-12 col-md-9" id="kolom1">
                 <div class="container row mt-4 mb-4">
-                    <div class="col-5 col-md-4  text-center">
-                        <img src="assets/images/070-pie.png" style="width: 100px; height: 100px;">
+                    <div class="col-5 col-md-2  text-center">
+                        <img src="assets/images/DSC_0022.jpg" style="width: 100px; height: 100px; object-fit: cover;">
                     </div>
-                    <div class="col-7 col-md-8">
-                        <h5>Terpopuler: Lorem Ipsum</h5>
+                    <div class="col-7 col-md-10">
+                        <h5><b>HOT!!!</b> Resep Nastar Murah Meriah</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                             ....
                         </p>
@@ -188,22 +226,22 @@
                         </div>
                     </div>
                     <hr>
-                    <div class="col-7 col-md-8">
-                        <h5>Terbaru: Lorem Ipsum</h5>
+                    <div class="col-7 col-md-10 text-end">
+                        <h5><b class="">BARU!!!</b> Ayam Bakar Pedas</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua......
                         </p>
-                        <div class="text-start">
-                            <button type="button" class="btn btn-sm btn-outline-light">More</button>
-                        </div>
+                        <!-- <div class="text-start"> -->
+                        <button type="button" class="btn btn-sm btn-outline-light">More</button>
+                        <!-- </div> -->
                     </div>
-                    <div class="col-5 col-md-4  text-center">
-                        <img src="assets/images/007-burger.png" style="width: 100px; height: 100px;">
+                    <div class="col-5 col-md-2  text-center">
+                        <img src="assets/images/ayambakar.jpg" style="width: 100px; height: 100px;object-fit: cover;">
                     </div>
                 </div>
             </div>
             <div class="col-12 col-md-3" id="kolom2">
                 <div class="container text-center mt-4 mb-4">
-                    <a href="">
+                    <a href="https://shopee.co.id/">
                         <h3 style="color: white;"><b>OPEN ORDER NOW!</b> </h3>
                         <h5 class="text-light">Diskon sampai<br><b>50%</b></h5>
                         <!-- <h2 style="color: white;"><b>PROMO</b> up to <br><b>50%</b></h2> -->
@@ -219,25 +257,25 @@
                     <!-- <h2 style="color: white;"><b>PROMO</b> up to <br><b>50%</b></h2> -->
                     <div class="row">
                         <div class="col-6 col-md-6 mt-3">
-                            <a href="">
+                            <a href="https://www.instagram.com/ulimultia/">
                                 <i class="fab fa-instagram mt-3 mb-3 fa-5x text-light"></i>
                                 <h5 class="text-light">@ulimultia</h5>
                             </a>
                         </div>
                         <div class="col-6 col-md-6 mt-3">
-                            <a href="">
+                            <a href="https://tiktok.com/">
                                 <i class="fab fa-tiktok mt-3 mb-3 fa-5x text-light"></i>
                                 <h5 class="text-light">@tiktok</h5>
                             </a>
                         </div>
                         <div class="col-6 col-md-6 mt-3">
-                            <a href="">
+                            <a href="https://youtube.com/">
                                 <i class="fab fa-youtube mt-3 mb-3 fa-5x text-light"></i>
                                 <h5 class="text-light">youtube</h5>
                             </a>
                         </div>
                         <div class="col-6 col-md-6 mt-3">
-                            <a href="">
+                            <a href="https://shopee.co.id/">
                                 <i class="fas fa-shopping-cart mt-3 mb-3 fa-5x text-light"></i>
                                 <h5 class="text-light">Shopee</h5>
                             </a>
@@ -248,10 +286,10 @@
             <div class="col-12 col-md-9" id="kolom4">
                 <div class="container row mt-4 mb-4">
                     <div class="col-5 col-md-4  text-center">
-                        <img src="assets/images/070-pie.png" style="width: 100px; height: 100px;">
+                        <img src="assets/images/lidahkucing.jpg" style="width: 100px; height: 100px; object-fit: cover;">
                     </div>
                     <div class="col-7 col-md-8">
-                        <h5>Baca Juga: Lorem Ipsum</h5>
+                        <h5>Baca Juga: Resep Kue Lidah Kucing Nyam-nyam</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ....
                         </p>
                         <div class="text-end mb-4">
@@ -260,7 +298,7 @@
                     </div>
                     <hr>
                     <div class="col-7 col-md-8">
-                        <h5>Baca Juga: Lorem Ipsum</h5>
+                        <h5>Baca Juga: Jamu Kunir Asam Alami</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua......
                         </p>
                         <div class="text-start">
@@ -268,7 +306,7 @@
                         </div>
                     </div>
                     <div class="col-5 col-md-4  text-center">
-                        <img src="assets/images/007-burger.png" style="width: 100px; height: 100px;">
+                        <img src="assets/images/kunirasem.jpeg" style="width: 100px; height: 100px;">
                     </div>
                 </div>
             </div>
