@@ -3,10 +3,23 @@
         /* background-image: url("../assets/bg_kitchen.jpg");
     background-repeat: repeat;
     background-size: 500px; */
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-family: 'RocknRoll One', sans-serif;
     }
     
     .navbar {
         background-color: #f9ab40;
+    }
+    
+    .navbar-brand a {
+        font-family: "Sofia", sans-serif;
     }
     
     .carousel-item {
