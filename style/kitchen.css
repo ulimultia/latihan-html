@@ -115,8 +115,13 @@
         background-color: #ffce66;
     }
     
+<<<<<<< HEAD
     .judul-artikel .row {
         height: fit-content;
+=======
+    .judul-artikel {
+        /* height: fit-content; */
+>>>>>>> d7b8375638750c92fb82e72c476cf687afb95778
         background-color: #f9ab40;
         margin: 0;
         color: white;
@@ -124,10 +129,17 @@
     
     .judul-artikel img {
         width: 100%;
+<<<<<<< HEAD
         height: 70%;
         object-fit: cover;
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         margin-bottom: 0;
+=======
+        height: 450px;
+        object-fit: cover;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-bottom: 50px;
+>>>>>>> d7b8375638750c92fb82e72c476cf687afb95778
     }
     
     .pembuka p {
