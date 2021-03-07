@@ -114,33 +114,142 @@
     #kolom6 {
         background-color: #ffce66;
     }
-    /* .produk a {
-    text-decoration: none;
-    color: black;
-}
-
-.produk a:hover {
-    opacity: 0.5;
-    color: black;
-}
-
-.produk img {
-    max-width: 200px;
-    margin-top: 10px;
-}
-
-.kolom-produk {
-    border-width: thin;
-    border: 1px;
-    border-style: solid;
-    border-color: rgb(230, 230, 230)
-} */
+    
+    .judul-artikel .row {
+        height: fit-content;
+        background-color: #f9ab40;
+        margin: 0;
+        color: white;
+    }
+    
+    .judul-artikel img {
+        width: 100%;
+        height: 70%;
+        object-fit: cover;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-bottom: 0;
+    }
+    
+    .pembuka p {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+    
+    .alat-bahan {
+        background-color: #f8e8c8;
+    }
+    /* .alat {
+        background-color: #f47c84;
+    } */
+    
+    .alat-bahan p {
+        line-height: 10px;
+    }
+    
+    .alat,
+    .bahan {
+        border: 1px solid;
+        border-radius: 10px;
+        border-color: white;
+        margin: 20px 20px;
+        padding-left: 10px;
+    }
+    
+    .cara-kerja {
+        padding: 30px 30px;
+    }
+    
+    .cara-kerja p {
+        text-align: justify;
+    }
+    
+    .layout-promosi {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        padding-top: 56.25%;
+    }
+    
+    .layout-video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .komentar {
+        height: auto;
+        background-color: #f47c84;
+        padding: 20px 30px;
+    }
+    
+    .nama-komentator {
+        line-height: 6px;
+        font-size: 18px;
+        font-style: italic;
+    }
+    
+    .foto-profil img {
+        width: 50px;
+        background-color: #f0a5aa;
+    }
+    
+    .rekomendasi-artikel {
+        background-color: #ccb7a4;
+    }
+    
+    .rekomendasi-artikel h5 {
+        margin-left: 30px;
+    }
+    
+    .list-rekomendasi {
+        margin: 0 10%;
+        border: 1px solid white;
+        border-radius: 10px;
+    }
+    
+    .list-rekomendasi img {
+        border-radius: 10px 10px 0px 0px;
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    }
+    
+    .list-rekomendasi a {
+        text-decoration: none;
+        text-align: center;
+        color: black
+    }
+    
+    .list-rekomendasi a:hover {
+        opacity: 0.5;
+        color: black;
+    }
     /* css for footer */
+    
+    .as-footer {
+        height: 70px;
+    }
+    
+    .button-up {
+        margin-top: -70px;
+        bottom: 70px;
+        position: fixed;
+        right: 0;
+    }
     
     footer {
         height: 70px;
         /* background-color: #44455b; */
-        background-color: rgb(87, 79, 79);
+        /* background-color: rgb(87, 79, 79); */
+        background-color: #3f372e;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
     }
     
     footer p {
