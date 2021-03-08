@@ -1,8 +1,4 @@
 body {
-    /* background-color: rgb(204, 204, 204); */
-    /* background-image: url("../assets/bg_kitchen.jpg");
-background-repeat: repeat;
-background-size: 500px; */
     font-family: 'Raleway', sans-serif;
 }
 
@@ -14,6 +10,9 @@ h5 {
     font-family: 'RocknRoll One', sans-serif;
 }
 
+
+/* ============================== css heeader ============================== */
+
 .navbar {
     background-color: #f9ab40;
 }
@@ -24,16 +23,15 @@ h5 {
 
 .carousel-item {
     background-color: #f9ab40;
-    /* height: 500px; */
 }
 
 .carousel1 img {
-    max-height: 90%;
+    height: 90%;
     width: 90%;
 }
 
 
-/* css main */
+/* ============================== css main index =================================*/
 
 .kategori-resep {
     margin-bottom: 100px;
@@ -60,22 +58,16 @@ h5 {
     color: rgb(28, 28, 28);
 }
 
-
-/* .kategori-resep a:hover {
-color: white;
-} */
-
 .kategori-resep img {
     width: 100px;
 }
 
 
-/* css index kategori cokies */
+/* ---- css layout di bawah kategori masakan ---- */
 
 .baris1,
 .baris2 {
     height: auto;
-    /* margin-bottom: 30px; */
 }
 
 #kolom1 {
@@ -86,7 +78,7 @@ color: white;
 #kolom2 {
     background-color: #f47c84;
     /* border: #a9e5d5;
-border-style: solid; */
+    border-style: solid; */
 }
 
 #kolom2 a,
@@ -102,7 +94,7 @@ border-style: solid; */
     background-color: rgb(93, 223, 252);
     /* background-color: rgb(87, 79, 79); */
     /* border: rgb(93, 223, 252);
-    border-style: solid; */
+        border-style: solid; */
 }
 
 #kolom4 {
@@ -110,19 +102,10 @@ border-style: solid; */
     /* background-color: #ffce66; */
 }
 
-#kolom5 {
-    background-color: rgb(93, 223, 252);
-    /* background-color: rgb(87, 79, 79); */
-    /* border: rgb(93, 223, 252);
-    border-style: solid; */
-}
 
-#kolom6 {
-    background-color: #ffce66;
-}
+/* ===================== css main halaman view artikel =================== */
 
 .judul-artikel {
-    /* height: fit-content; */
     background-color: #f9ab40;
     margin: 0;
     color: white;
@@ -145,12 +128,8 @@ border-style: solid; */
     background-color: #f8e8c8;
 }
 
-
-/* .alat {
-    background-color: #f47c84;
-} */
-
 .alat-bahan p {
+    /* line-height untuk mengatur line spacing antar paragraf */
     line-height: 10px;
 }
 
@@ -173,6 +152,7 @@ border-style: solid; */
 
 .layout-promosi {
     position: relative;
+    /* overflow hidden jika lebih dari kotakan div maka akan ditutupi */
     overflow: hidden;
     width: 100%;
     padding-top: 56.25%;
@@ -238,7 +218,7 @@ border-style: solid; */
 }
 
 
-/* css for footer */
+/* ====================== css for footer =========================== */
 
 .as-footer {
     height: 70px;
